@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan /macros/latex/contrib/biocon
+# catalog-date 2007-01-23 22:34:44 +0100
+# catalog-license gpl
+# catalog-version undef
 Name:		texlive-biocon
 Version:	20070123
 Release:	1
@@ -54,6 +60,7 @@ situations.
 %doc %{_texmfdistdir}/doc/latex/biocon/manual.tex
 %doc %{_texmfdistdir}/doc/latex/biocon/source.pdf
 %doc %{_texmfdistdir}/doc/latex/biocon/source.tex
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -64,3 +71,5 @@ situations.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
