@@ -5,8 +5,8 @@ Summary:	Typesetting biological species names
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/biocon
 License:	GPL
-Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/biocon.r15878.tar.xz
-Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/biocon.doc.r15878.tar.xz
+Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/biocon.r%{version}.tar.xz
+Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/biocon.doc.r%{version}.tar.xz
 BuildArch:	noarch
 BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
