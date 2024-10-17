@@ -3,7 +3,7 @@ Version:	15878
 Release:	2
 Summary:	Typesetting biological species names
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/macros/latex/contrib/biocon
+URL:		https://www.ctan.org/tex-archive/macros/latex/contrib/biocon
 License:	GPL
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/biocon.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/biocon.doc.r%{version}.tar.xz
